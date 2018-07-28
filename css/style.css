@@ -1,0 +1,142 @@
+html,body {
+width: 100%;
+height: 100%;
+background: #212F3C !important;
+}
+h3, h1, h4 {
+color: #fff;
+text-align: center;
+}
+h2{
+color:#00d5a6 !important; 
+}
+h6, span, p {
+color: #00d5a6 !important;
+text-align: center;
+}
+p{
+text-align: center;
+margin: 39px 55px 55px !important;
+}
+a {
+color: #ffffff;
+text-decoration: none;
+}
+header{
+width: 100%;
+}
+header >.heder-u {
+width: 100%;
+min-height: -webkit-fill-available;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+background-position: center;
+background-image: url('../img/157304-OUGQ7E-183.jpg');
+text-align: center;
+}
+/*Barra de navegacion*/
+.navbar-default {
+background-color: transparent !important;
+border-color: transparent !important;
+}
+.navbar-toggle {
+position: relative;
+float: right;
+padding: 8px 13px;
+margin-top: 5px;
+margin-right: 15px;
+margin-bottom: 8px;
+background-color: transparent;
+background-image: none;
+border: 0px solid transparent;
+border-radius: 4px;
+}
+@media (min-width: 800px) {
+.container{
+z-index: 1000;
+}
+.navbar-default .navbar-header .navbar-brand {
+color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+color: #fff !important;
+}
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+color: transparent;
+}
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+color: rgba(255, 255, 255, 0.7);
+}
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+background-color: hsl(0, 0%, 65%);
+border-color: transparent !important;
+}
+.navbar-default.affix {
+background-color: none;
+border-color: none;
+}
+.navbar-default.affix .navbar-header .navbar-brand {
+color: transparent;
+font-size: 14px;
+}
+.navbar-default.affix .navbar-header .navbar-brand:hover,
+.navbar-default.affix .navbar-header .navbar-brand:focus {
+color: transparent;
+}
+.navbar-default.affix .nav > li > a,
+.navbar-default.affix .nav > li > a:focus {
+color: red;
+}
+.navbar-default.affix .nav > li > a:hover,
+.navbar-default.affix .nav > li > a:focus:hover {
+}
+}
+.navbar-default .navbar-nav>li>a {
+color: #fff;
+}
+/*botones*/
+.btn-primary {
+color: #fff;
+background-color:transparent !important;
+border-color: #fff;
+}
+.btn-primary, .btn-md {
+color: #fff;
+background-color:#00d5a6 !important;
+border-color: #0e8e78;
+padding: 15px auto;
+}
+.form-horizontal, .form-group { 
+margin-right: 30px !important;
+margin-left: 30px !important;
+}
+.form-control {
+width: 100%;
+height: 40px;
+}
+.btn {
+display: inline-block;
+padding: 13px 54px;
+margin-bottom: 20px;
+border-radius: 0px;
+}
+.bt-border{
+border-color: #fff;
+}
+.container {
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+.bg-primary h4 {
+color: #212F3C ;
+}
+.bg-primary{
+background-color: white !important;
+}

@@ -1,0 +1,13 @@
+@face-font{
+font-family:Hero;
+src:url(vendor/fonts/Hero.otf);
+}
+h1 {
+font-family: hero !important;
+}
+h3{
+font-family: Hero !important;
+}
+a{
+font-family: hero !important;
+}
