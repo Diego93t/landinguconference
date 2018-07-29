@@ -1,26 +1,49 @@
 <!DOCTYPE html>
+<<html lang="es">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
     <title>Upgrade</title>
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Css Estilos local -->
-    <link rel="stylesheet" type="text/css" href="css/style.css"  >
-    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=0.80, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" type="text/css" href="vendor/css/bootstrap.min.css">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="vendor/cubeportfolio/css/cubeportfolio.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='http:////netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/stylemenu.css">
 </head>
 <body>
-    <body>
-        <header>
+    <header>
+        <div class="heder-u2">
+            <div class="mainPage navbar-static-top">
+                <<img src="img/LogoVerde_06.png" class="img-menu" width="30%">
+                <a href="#" class="menu-btn " onclick="toggleMenu();"><i class="icon-reorder"></i></a>
+                <nav id="mainNav" class="closed" role='navigation'>
+                    <ul>
+                        <li><a href="index.php">Inicio</a></li>
+                        <li><a href="Registro.php">Registro</a></li>
+                        <li><a href="Info.php">Informacion</a></li>
+                        <li><a href="Contacto.php">Contactos</a></li>
+                    </ul>
+                    <a id="close" onclick="toggleMenu();">x</a>
+                </nav>
+            </div>
+    </div>
+</header>   
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 text-center">
-                        <img src="img/LogoVerde_06.png" width="100">
+                        <img src="img/LogoVerde_06.png" width="20%">
                         <h3>Listo</h3>
-                        <p>Registro completado</p>
+                        <p class="p">Registro completado</p>
                     </div>
                 </div>
             </div>
-        </header>
+     
         <div class="container">
             <section class="main row">
                 <div class="col-md-12 ">
@@ -42,5 +65,7 @@
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script  src="js/indexmenu.js"></script>
+
 </body>
 </html>

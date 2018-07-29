@@ -1,40 +1,43 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
     <title>Upgrade</title>
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Css Estilos local -->
-    <link rel="stylesheet" type="text/css" href="css/style.css"  >
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=0.80, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" type="text/css" href="vendor/css/bootstrap.min.css">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="vendor/cubeportfolio/css/cubeportfolio.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='http:////netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/stylemenu.css">
 </head>
-<body>
-
-    <!-----Menu--------------------------------------------->
-<nav id="mainNav" class="navbar navbar-default  ">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <img src="img/bars.png" width="50px"> 
-                </button>
-               <!-- <img src="img/LogoVerde_06.png" width="100">-->
+<body >
+    <!--**************************************************************************************-->
+    <!--TU CODIGO VA AQUI-->
+    <!--Aqui comienza el codigo para el menu-->
+    <header>
+        <div class="heder-u2">
+            <div class="mainPage navbar-static-top">
+                <img src="img/LogoVerde_06.png" class="img-menu" width="30%">
+                <a href="#" class="menu-btn " onclick="toggleMenu();"><i class="icon-reorder"></i></a>
+                <nav id="mainNav" class="closed" role='navigation'>
+                    <ul>
+                        <li><a href="index.php">Inicio</a></li>
+                        <li><a href="Registro.php">Registro</a></li>
+                        <li><a href="Info.php">Informacion</a></li>
+                        <li><a href="Contacto.php">Contactos</a></li>
+                    </ul>
+                    <a id="close" onclick="toggleMenu();">x</a>
+                </nav>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <!--link normal-->
-                    <li><a class="page-scroll" href="Index.php">Inicio</a></li>
-                    <li><a class="page-scroll" href="Registro.php">Registro</a></li>
-                    <li><a class="page-scroll" href="Info.php">Informacion</a></li>
-                    <li><a class="page-scroll" href="Contacto.php">Contactos</a></li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-
+    </header>
 
     <!--PHP para el registro-->
     <?php 
@@ -78,7 +81,7 @@
         }
         ?>
     <!--Empiesa el contenido-->
-    <header>
+ 
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -87,7 +90,7 @@
                 </div>
             </div>
         </div>
-    </header>
+ 
     <div class="container">
         <section class="main row">
             <!-- <div class="col-md-12"> -->
@@ -130,6 +133,7 @@
             <div class="col-md-9 text-center">
                 <p>Al dar click en el boton, estas aceptando el uso de tu informacion para motivos de publicacion de la marca Upgrade </p>
             </div>
+            <br>
         </section>
     </div>
     <footer></footer>
@@ -139,7 +143,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-   
+       <!--Este js es para la animacion modal-->
+    <script  src="js/indexmenu.js"></script>
     <script type="text/javascript">
         function Confirmareg(){
           window.open("Invitar.php");

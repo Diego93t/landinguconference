@@ -1,25 +1,28 @@
 <!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="utf-8">
-    <title>Landing</title>
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Css Estilos local -->
-    <link rel="stylesheet" type="text/css" href="css/style.css"  >
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=0.80, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>Upgrade</title>
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" type="text/css" href="vendor/css/bootstrap.min.css">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="vendor/cubeportfolio/css/cubeportfolio.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='http:////netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/stylemenu.css">
 </head>
-<body>
+    <body>
     <?php 
-        $host ="localhost";
-        
-        $puerto = "3306";
-        
-        $usuario = "root";
-        
-        $contrasena = "";
-        
+        $host ="localhost";        
+        $puerto = "3306";        
+        $usuario = "root";        
+        $contrasena = "";        
         $basededatos = "landin_confe";
-        
         $tabla = "contacto";
         
         function Conectarse()
@@ -58,16 +61,33 @@
         }
         }
         ?>
-    <header>
+   <header>
+  <div class="heder-u2">
+            <div class="mainPage navbar-static-top">
+                <img src="img/LogoVerde_06.png" class="img-menu text-center" width="30%">
+                <a href="#" class="menu-btn " onclick="toggleMenu();"><i class="icon-reorder"></i></a>
+                <nav id="mainNav" class="closed" role='navigation'>
+                    <ul>
+                        <li><a href="index.php">Inicio</a></li>
+                        <li><a href="Registro.php">Registro</a></li>
+                        <li><a href="Info.php">Informacion</a></li>
+                        <li><a href="Contacto.php">Contactos</a></li>
+                    </ul>
+                    <a id="close" onclick="toggleMenu();">x</a>
+                </nav>
+            </div>
+</div>
+
+</header>
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <img src="img/LogoVerde_06.png" width="100">
+                    <img src="img/LogoVerde_06.png" width="20%">
                     <h3>CONTACTO</h3>
                 </div>
             </div>
         </div>
-    </header>
+ 
     <div class="container">
         <section class="main row">
             <form class="form-horizontal" method="post">
@@ -92,17 +112,18 @@
                         <input type="text" class="form-control" aria-describedby="basic-addon1" name="mensaje" maxlength="200" required autofocus>
                     </div>
                 </div>
-                <h6>Un campo con * es un campo obligatorio</h6>
+                <p>Un campo con * es un campo obligatorio</p>
                 <br>
             </form>
             <!-- Boton-->
             <div class="col-md-12 text-center ">
-                <button class="btn btn-primary btn-md text-uppercase active" type="submit">Enviar</button>  
+                <button class="btn btn-primary btn-md text-uppercase active" type="submit" onclick="Confirmareg()" >Enviar</button>  
             </div>
             <br>
             <div class="col-lg-12 text-center">
                 <p>Al dar click en el boton, estas aceptando el uso de tu informacion para motivos de publicacion de la marca Upgrade </p>
             </div>
+            br
         </section>
     </div>
     <footer></footer>
@@ -116,5 +137,6 @@
           window.open("Invitar.php");
         }
     </script>
+     <script  src="js/indexmenu.js"></script>
 </body>
 </html>
