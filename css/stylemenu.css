@@ -7,6 +7,7 @@
 img {
   max-width: 100%;
   height: auto !important;
+
 }
 
 @media screen and (min-width: 40em) {
@@ -189,3 +190,4 @@ img {
     padding-right: 5em;
   }
 }
+

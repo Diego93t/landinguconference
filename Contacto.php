@@ -63,7 +63,7 @@
         ?>
    <header>
   <div class="heder-u2">
-            <div class="mainPage navbar-static-top">
+            <div class="mainPage navbar-static-top marg-ext">
                 <img src="img/LogoVerde_06.png" class="img-menu text-center" width="30%">
                 <a href="#" class="menu-btn " onclick="toggleMenu();"><i class="icon-reorder"></i></a>
                 <nav id="mainNav" class="closed" role='navigation'>
@@ -82,8 +82,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <img src="img/LogoVerde_06.png" width="20%">
-                    <h3>CONTACTO</h3>
+                    <h3>CONTACTO</h3><br>
                 </div>
             </div>
         </div>
@@ -114,16 +113,16 @@
                 </div>
                 <p>Un campo con * es un campo obligatorio</p>
                 <br>
-            </form>
             <!-- Boton-->
             <div class="col-md-12 text-center ">
-                <button class="btn btn-primary btn-md text-uppercase active" type="submit" onclick="Confirmareg()" >Enviar</button>  
+                <button class="btn btn-primary btn-md text-uppercase active" type="submit" onclick="Confirmaenv()" >Enviar</button>  
             </div>
+            </form>
             <br>
             <div class="col-lg-12 text-center">
                 <p>Al dar click en el boton, estas aceptando el uso de tu informacion para motivos de publicacion de la marca Upgrade </p>
             </div>
-            br
+            <br>
         </section>
     </div>
     <footer></footer>
@@ -132,11 +131,15 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+   
+     <script  src="js/indexmenu.js"></script>
+
     <script type="text/javascript">
-        function Confirmareg(){
-          window.open("Invitar.php");
+        function Confirmaenv(){
+          alert("Mensaje enviado.");
+          
         }
     </script>
-     <script  src="js/indexmenu.js"></script>
+
 </body>
 </html>

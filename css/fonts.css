@@ -1,13 +1,42 @@
 @face-font{
-font-family:Hero;
+font-family:Hero, 'Hero light', 'Montserrat Bold', 'Montserrat Regular';
 src:url(vendor/fonts/Hero.otf);
+src:url(vendor/fonts/Montserrat-Bold.ttf);
+src:url(vendor/fonts/Montserrat-REgular.ttf);
 }
 h1 {
-font-family: hero !important;
+font-family: 'montserrat bold', montserrat !important;
+
+}
+h2{
+font-family: montserrat !important;
 }
 h3{
-font-family: Hero !important;
+font-family: 'Hero' !important;
+
 }
+h4{
+font-family: 'Hero light' !important;
+
+}
+
 a{
-font-family: hero !important;
+font-family: 'hero light' !important;
+
+}
+p{
+font-family: Hero !important;
+
+}
+.color-fntw{
+	color: #fff!important;
+}
+.color-fntg{
+	color: grey !important;
+}
+.color-fntb{
+	color: #00d5a6 !important;
+}
+.color-fntr{
+	color: red !important;
 }
