@@ -82,7 +82,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3 class="color-fntw">REGISTRO</h3><br>
+                    <h3 class="color-fntw">REGISTRO</h3>
+                    <br>
                 </div>
             </div>
         </div>
@@ -113,18 +114,15 @@
                         </div>
                     </div>
                     <p class="text-center">Un campo con * es un campo obligatorio.</p>
-                
                     <br>
-                   
                     <div class="col-md-12 text-center ">
                         <button class="btn btn-primary btn-md text-uppercase active" type="submit">Registrarme.</button>
                     </div>
                 </form>
-                 <div class="col-md-12 text-center ">
-                                    <a href="Invitar.php" class="btn bt-border color-fntw">Invitar a un amigo.</a>
-                                </div>
+                <div class="col-md-12 text-center ">
+                    <a href="Invitar.php" class="btn bt-border color-fntw">Invitar a un amigo.</a>
+                </div>
                 <br>
-                
                 <div class="col-md-12 text-center">
                     <p >Al dar click en el boton, estas aceptando el uso de tu informaci&oacute;n para motivos de publicaci&oacute;n de la marca Upgrade. </p>
                 </div>

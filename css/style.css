@@ -34,7 +34,6 @@ text-align: center;
 header >.heder-u2 {
 text-align: center;
 }
-
 /*botones*/
 .btn-primary {
 color: #fff;
@@ -61,7 +60,6 @@ padding: 13px 54px;
 margin-top: 21px;
 margin-bottom: 21px;
 border-radius: 0px;
-
 }
 .bt-border{
 border-color: #fff;
@@ -76,30 +74,27 @@ margin-left: auto;
 color: #212F3C ;
 }
 .marg-ext{
-
-	margin-bottom: 66px;
+margin-bottom: 66px;
 }
 .bg-primary{
 background-color: whitesmoke !important;
 height: 700px;
 padding-top: 55px;
 }
-
 .btn-block {
-    width: 100%;
+width: 100%;
 }
 /*Panel de info.php*/
 .panel-default>.panel-heading {
-    color: #fff !important;
-    background-color: #212f3c !important;
-    border-color: #212f3c !important;
-    width: auto;
+color: #fff !important;
+background-color: #212f3c !important;
+border-color: #212f3c !important;
+width: auto;
 }
 .panel {
-    
-    background-color: #fff/*#212F3C;*/
-    border: 0px solid transparent; 
-    border-radius: 4px;
-    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
-    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+background-color: #fff/*#212F3C;*/
+border: 0px solid transparent; 
+border-radius: 4px;
+-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
