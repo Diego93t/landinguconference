@@ -23,7 +23,7 @@
         <header>
             <div class="heder-u">
                 <div class="mainPage navbar-static-top marg-ext">
-                    <img src="img/LogoVerde_06.png" class="img-menu" width="30%">
+                    <img src="img/LogoVerde_06.png" class="img-menu" width="20%">
                     <a href="#" class="menu-btn " onclick="toggleMenu();"><i class="icon-reorder"></i></a>
                     <nav id="mainNav" class="closed" role='navigation'>
                         <ul>
