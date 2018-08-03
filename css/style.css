@@ -1,6 +1,7 @@
 body {
 width: 100%;
 height: 100%;
+
 background:#394550 !important;
 color: white;
 }
@@ -20,6 +21,7 @@ text-decoration: none;
 }
 header{
 width: 100%;
+text-align: center;
 }
 header >.heder-u {
 min-height: -webkit-fill-available;
@@ -59,7 +61,7 @@ display: inline-block;
 padding: 13px 54px;
 margin-top: 21px;
 margin-bottom: 21px;
-border-radius: 0px;
+border-radius: 5px;
 }
 .bt-border{
 border-color: #fff;
@@ -74,7 +76,7 @@ margin-left: auto;
 color: #212F3C ;
 }
 .marg-ext{
-margin-bottom: 66px;
+margin-bottom: 40px;
 }
 .bg-primary{
 background-color: whitesmoke !important;

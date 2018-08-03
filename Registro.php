@@ -70,7 +70,7 @@
             $queryInsert = "INSERT INTO $tabla (Nombre, Correo, Nom_Emp) VALUES ('".$_POST['name']."', '".$_POST['email']."', '".$_POST['nom_em']."')";
             $resultInsert = mysqli_query($link, $queryInsert);
             if($resultInsert){
-            #echo "<div><p class='color-fntr text-center text-uppercase'>Datos insertados correctamente.</p></div>";
+            echo "<div><p class='color-fntb text-center text-uppercase'>REgistro completado.</p></div>";
             }
             else
             {
@@ -82,7 +82,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3 class="color-fntw">REGISTRO</h3>
+                    <h1 class="color-fntw">REGISTRO</h1>
                     <br>
                 </div>
             </div>
@@ -118,10 +118,10 @@
                     <div class="col-md-12 text-center ">
                         <button class="btn btn-primary btn-md text-uppercase active" type="submit">Registrarme.</button>
                     </div>
-                </form>
+                
                 <div class="col-md-12 text-center ">
                     <a href="Invitar.php" class="btn bt-border color-fntw">Invitar a un amigo.</a>
-                </div>
+                </div></form>
                 <br>
                 <div class="col-md-12 text-center">
                     <p >Al dar click en el boton, estas aceptando el uso de tu informaci&oacute;n para motivos de publicaci&oacute;n de la marca Upgrade. </p>

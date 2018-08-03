@@ -5,7 +5,7 @@ box-sizing: border-box;
 }
 img {
 max-width: 100%;
-margin: 0;
+margin: 5px;
 }
 /*----Mocvil-----------*/
 .mainPage {
@@ -64,7 +64,6 @@ z-index: 10;
 position: absolute;
 top: 5%;
 right: 7%;
-background-color: #0393f978;
 -moz-border-radius: 50%;
 -webkit-border-radius: 50%;
 border-radius: 50%;

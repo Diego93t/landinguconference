@@ -29,7 +29,8 @@
                     </ul>
                     <a id="close" onclick="toggleMenu();">x</a>
                 </nav>
-            </div>
+          </div> 
+      </header> 
             <div class="container ">
                 <section class="row">
                 <div class="col-md-12 ">
@@ -37,7 +38,6 @@
                     <h1>Invita a un amigo.</h1>
                 </div>
                 <br>
-                <section class="row">
                     <div class="col-md-12 ">
                         <a class="btn btn-default btn-block btn-img" href="whatsapp://send?text=Hola te invitamos a incribirte a la conferencia https://www.facebook.com/UpgradeConsultoradeInnovacion/" data-action="share/whatsapp/share">
                             <img src="img/whatsapp.png" width="50">
@@ -60,7 +60,7 @@
                     </div>
                 </section>
             </div>
-        </header>
+        
         <br>
         <footer>
             <div class="container">

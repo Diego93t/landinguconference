@@ -69,11 +69,12 @@
         <br>
         <div class="container marg-ext" >
             <section class="row">
-                <div class="col-md-12">
-                    <img src="img/LogoVerde_06.png" width="30%" >
-                    <h2 class="color-fntb text-center">CONFERENCE</h2>
-                    <br>
-                    <h2 class="color-fntw text-center">Ciudad Hidalgo</h2>
+                <div class="col-sm-12 marg-ext">
+               <img src="img/LogoVerde_06.png" width="20%" align="left" style="margin-left: 32px">    
+                <h1 class=" text-uppercase">Upgrade</h1>
+                    <p class=" color-fntb">Ciudad Hidalgo</p>
+                
+                </div>
                 </div>
                 <br>
                 <div class="col-sm-12 color-fntb">
@@ -94,7 +95,7 @@
             </section>
         </div>
         <section  class="bg-primary">
-            <div class="container marg-ext">
+            <div class="container ">
             <div class="row">
                 <div class="col--12 text-center">
                     <h2 class="section-heading text-uppercase text-center color-fntb">Contenido del curso</h2>
@@ -104,22 +105,24 @@
                 <div class="col-sm-12 marg-ext">
                     <img src="img/065-smartphone.png" width="25%" align="left" >
                     <h4 class="text-left">Consigue clientes usando internet</h4>
+                    <p class="color-fntb text-left">Sabado 11 de Agosto </p>
                 </div>
-                <p class="color-fntb">Sabado 11 de Agosto </p>
+                
                 <br>
                 <br>
                 <div class="col-sm-12 marg-ext">
                     <img src="img/106-list.png" width="30%"  align="right" >
                     <h4 class="text-right">Mejora procesos para incrementar ventas </h4>
+                    <p class="text-right color-fntb">Sabado 18 de Agosto </p>
+                
                 </div>
-                <p class="text-right color-fntb">Sabado 18 de Agosto </p>
                 <br>
                 <br>
                 <div class="col-sm-12   marg-ext">
                     <img src="img/017-users-1.png" width="30%"  align="left" >
                     <h4 class="text-left">La importancia de capacitar a tu personal</h4>
-                </div>
-                <p class="color-fntb">Sabado 25 de Agosto </p>
+                    <p class="color-fntb text-left">Sabado 25 de Agosto </p>
+                     </div>
                 <br>
                 <br>
             </div>
